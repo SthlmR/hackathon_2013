@@ -1,6 +1,6 @@
-require(Coldbir)
-require(data.table)
-require(ggplot2)
+library(Coldbir)
+library(data.table)
+library(ggplot2)
 
 # Create connection to MiDAS DB
 midasdb <- cdb("~/Desktop/MidasDEMO/")
